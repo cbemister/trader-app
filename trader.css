@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ddc-content.slideshow-background {
+	visibility: hidden;
+}
+div#desktopSlideshow {
+	position: fixed;
+	top: 36%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+div#desktopSlideshow img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+	height: 37vw;
+	width: auto;
+}
+
+@media screen and (min-width: 1266px) {
+	div#desktopSlideshow img {
+		max-height: 513px;
+	}
+	div#desktopSlideshow {
+		top: 45%;
+	}
+}
+
+@media screen and (max-width: 1265px) and (min-width: 1010px) {
+	div#desktopSlideshow img {
+		min-height: 465px;
+	}
+	div#desktopSlideshow {
+		top: 43.3%;
+	}
+}
+
+@media screen and (max-width: 1009px) {
+	div#desktopSlideshow {
+		top: 38%;
+	}
+	div#desktopSlideshow img {
+		min-height: 370px;
+	}
+}
