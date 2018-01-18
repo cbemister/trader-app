@@ -112,7 +112,6 @@ if (diff >= 0) {}
 
 	var traderApp = (function () {
 
-
 			var currenttime = new Date();
 
 			var oem = {
